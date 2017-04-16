@@ -1,4 +1,4 @@
-
+// singleton
 function Config(){
 
   // check does Config has instance property
@@ -10,6 +10,7 @@ function Config(){
 
   // save instance for repeat use
   Config.instance = this;
+
 }
 
 
@@ -18,4 +19,4 @@ function Config(){
 var conf1 = new Config();
 var conf2 = new Config();
 
-console.log( conf1 === conf2); // true
+console.log( conf1 === conf2);
