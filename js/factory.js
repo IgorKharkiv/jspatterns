@@ -54,4 +54,4 @@ var moderator = new User.create('Moderator', 'Dima');
 var simpleUser = new User.create('SimpleUser', 'Vasya');
 var noname = new User.create('SimpleUser');
 
-console.log(admin, moderator, simpleUser, noname);
+console.log(admin.fullInfo(), moderator, simpleUser, noname);
